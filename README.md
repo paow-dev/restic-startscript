@@ -2,7 +2,7 @@
 
 ## Übersicht
 
-Dieses Bash-Skript hilft dabei, **Restic** effektiv zu nutzen, um Backups von Dateien und Verzeichnissen zu erstellen. Es bietet Funktionen zur Initialisierung eines Repositories, Durchführung von Backups, Überprüfung der Integrität des Repositories sowie Planung automatisierter Backups über Cron-Jobs.
+Dieses Bash-Skript dient der vereinfachten Benutzung von **Restic**. Es vereinfacht die Handhabung, um Backups von Dateien und Verzeichnissen zu erstellen. Es bietet Funktionen zur Initialisierung eines Repositories, zur Durchführung von Backups, zur Überprüfung der Integrität des Repositories und zur Planung automatisierter Backups über Cron-Jobs.
 
 ## Anforderungen
 
@@ -60,11 +60,3 @@ Um regelmäßige Backups automatisch zu planen, kannst du einen Cron-Job einrich
 ```
 
 Dieser Befehl fügt einen Cron-Job hinzu, der jeden Tag um 02:00 Uhr ein Backup ausführt.
-
-## Hinweis
-
-Stelle sicher, dass du die richtigen Berechtigungen hast, um auf das Repository zuzugreifen und Änderungen vorzunehmen. 
-
-## Lizenz
-
-Dieses Projekt steht unter der MIT-Lizenz. Weitere Informationen findest du in der `LICENSE`-Datei.
